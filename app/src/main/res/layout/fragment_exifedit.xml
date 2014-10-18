@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="176dp">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:scaleType="centerCrop"
+                android:layout_height="match_parent"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:background="@drawable/gradient"/>
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="match_parent"
+            android:background="@color/blue_darker"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="20dp"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/subTitleTextView"
+            android:layout_width="match_parent"
+            android:background="@color/blue_darker"
+            android:layout_height="wrap_content"
+            android:textColor="@color/blue_darker_2"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="20dp"
+            android:textSize="14sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/manufacturerLabel"
+            android:text="Manufacturer"
+            style="@style/Label"/>
+
+        <EditText
+            android:id="@+id/manufacturerEditText"
+            android:text="Cannon"
+            style="@style/Value"/>
+
+        <TextView
+            android:id="@+id/modelLabel"
+            android:text="Model"
+            style="@style/Label"/>
+
+        <EditText
+            android:id="@+id/modelEditText"
+            android:text="Nexus 5"
+            style="@style/Value"/>
+
+        <TextView
+            android:id="@+id/dateLabel"
+            android:text="Date timestamp"
+            style="@style/Label"/>
+
+        <EditText
+            android:id="@+id/datehEditText"
+            android:text="5 5 2014"
+            style="@style/Value"/>
+
+        <TextView
+            android:id="@+id/apertureLabel"
+            android:text="Aperture"
+            style="@style/Label"/>
+
+        <EditText
+            android:id="@+id/apretureEditText"
+            android:text="2.4"
+            style="@style/Value"/>
+
+        <TextView
+            android:id="@+id/focalLengthLabel"
+            android:text="Focal length"
+            style="@style/Label"/>
+
+        <EditText
+            android:id="@+id/focalLengthEditText"
+            android:text="397/100"
+            style="@style/Value"/>
+
+        <TextView
+            android:id="@+id/exposureLabel"
+            android:text="Exposure"
+            style="@style/Label"/>
+
+        <EditText
+            android:id="@+id/exposureEditText"
+            android:text="0.0034"
+            style="@style/Value"/>
+
+        <TextView
+            android:id="@+id/isoLabel"
+            android:text="Iso"
+            style="@style/Label"/>
+
+        <EditText
+            android:id="@+id/isoEditText"
+            android:text="100"
+            style="@style/Value"/>
+
+
+        <TextView
+            android:id="@+id/whiteBalanceLabel"
+            android:text="White balance"
+            style="@style/Label"/>
+
+        <EditText
+            android:id="@+id/whiteBalanceEditText"
+            android:text="100"
+            style="@style/Value"/>
+
+        <TextView
+            android:id="@+id/orientationLabel"
+            android:text="Orientation"
+            style="@style/Label"/>
+
+        <EditText
+            android:id="@+id/orientationEditText"
+            android:text="0"
+            style="@style/Value"/>
+
+        <TextView
+            android:id="@+id/flashLabel"
+            android:text="Flash"
+            style="@style/Label"/>
+
+        <EditText
+            android:id="@+id/flashEditText"
+            android:text="0"
+            style="@style/Value"/>
+
+        <TextView
+            android:id="@+id/imageWidthLabel"
+            android:text="Image width"
+            style="@style/Label"/>
+
+        <EditText
+            android:id="@+id/imageWidthEditText"
+            android:text="1569"
+            style="@style/Value"/>
+
+        <TextView
+            android:id="@+id/imageHeightLabel"
+            android:text="Image height"
+            style="@style/Label"/>
+
+        <EditText
+            android:id="@+id/imageHeightEditText"
+            android:text="789"
+            style="@style/Value"/>
+
+        <TextView
+            android:id="@+id/procMethodLabel"
+            android:text="Processing method"
+            style="@style/Label"/>
+
+        <EditText
+            android:id="@+id/procMethodEditText"
+            android:text="IDK"
+            style="@style/Value"/>
+
+        <TextView
+            android:id="@+id/gpsTimestampLabel"
+            android:text="Gps timestamp"
+            style="@style/Label"/>
+
+        <EditText
+            android:id="@+id/gpsTimestampEditText"
+            android:text="4616156"
+            style="@style/Value"/>
+
+        <TextView
+            android:id="@+id/gpsAltLabel"
+            android:text="GPS Alt"
+            style="@style/Label"/>
+
+        <EditText
+            android:id="@+id/gpsAltEditText"
+            android:text="1651651"
+            style="@style/Value"/>
+
+        <TextView
+            android:id="@+id/gpsAltRefLabel"
+            android:text="GPS Alt Ref"
+            style="@style/Label"/>
+
+        <EditText
+            android:id="@+id/gpsAltRefEditText"
+            android:text="1651651"
+            style="@style/Value"/>
+
+        <TextView
+            android:id="@+id/gpsLatLabel"
+            android:text="GPS Lat"
+            style="@style/Label"/>
+
+        <EditText
+            android:id="@+id/gpsLatEditText"
+            android:text="4897897"
+            style="@style/Value"/>
+
+        <TextView
+            android:id="@+id/gpsLatRefLabel"
+            android:text="GPS Lat Ref"
+            style="@style/Label"/>
+
+        <EditText
+            android:id="@+id/gpsLatRefEditText"
+            android:text="5165156"
+            style="@style/Value"/>
+
+        <TextView
+            android:id="@+id/gpsLongLabel"
+            android:text="GPS Long"
+            style="@style/Label"/>
+
+        <EditText
+            android:id="@+id/gpsLongEditText"
+            android:text="123123"
+            style="@style/Value"/>
+
+        <TextView
+            android:id="@+id/gpsLongRefLabel"
+            android:text="GPS Long Ref"
+            style="@style/Label"/>
+
+        <EditText
+            android:id="@+id/gpsLongRefEditText"
+            android:text="N"
+            style="@style/Value"/>
+
+
+    </LinearLayout>
+</ScrollView>
